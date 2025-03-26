@@ -1,0 +1,47 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.dropdown-item:active {
+  background-color: #0d6efd;
+}
+
+/* Quiz card styles */
+.quiz-card {
+  transition: transform 0.2s;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Form styles */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Auth forms */
+.auth-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
