@@ -23,5 +23,5 @@ yarn-error.log*
 # development caches
 .cache
 
-chmod +x git-cleanup.sh
-./git-cleanup.sh
+# Vercel
+.vercel

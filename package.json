@@ -17,7 +17,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "debug-build": "chmod +x debug-build.sh && ./debug-build.sh",
+    "vercel-logs": "vercel logs mentquiz-on8ktfrsz-abhis-projects-9c290dd6.vercel.app",
+    "deploy": "vercel --prod",
+    "chmod-deploy": "chmod +x deploy.sh && ./deploy.sh",
+    "clean-install-deploy": "rm -rf node_modules package-lock.json && npm install && ./deploy.sh"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "eslintConfig": {
     "extends": [
